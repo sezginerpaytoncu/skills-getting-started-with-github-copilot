@@ -21,7 +21,7 @@ def client():
 
 
 def test_root_redirects_to_static_index(client):
-    # Arrange
+    # Arrange...
     path = "/"
     expected_location = "/static/index.html"
 
